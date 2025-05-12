@@ -26,7 +26,8 @@ SPA 리액트 프로젝트를 배포 및 `Cache-Control` 헤더를 이용하여 
 
 ## 배포
 
-[Github Action](./.github/workflows/deploy-r2.yml)을 통해 Cloudflare R2에 빌드된 파일 업로드
+- [Github Action](./.github/workflows/deploy-r2.yml)을 통해 Cloudflare R2에 빌드된 파일 업로드
+- 커스텀 도메인 설정 및 Cloudflare zone 추가
 
 <br>
 
@@ -36,3 +37,8 @@ SPA 리액트 프로젝트를 배포 및 `Cache-Control` 헤더를 이용하여 
 
 - Cache-Control 설정
 - Cloudflare R2 배포 설정
+
+### v0.1.1
+
+- 커스텀 도메인 설정
+- Cache-Control action 추가

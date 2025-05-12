@@ -21,3 +21,18 @@ SPA 리액트 프로젝트를 배포 및 `Cache-Control` 헤더를 이용하여 
 
 - 정적 자원들에 대해서는 무기한 캐싱
 - 빌드된 파일의 이름이 고유하게 변경 되기 때문에 무기한으로 설정
+
+<br>
+
+## 배포
+
+[Github Action](./.github/workflows/deploy-r2.yml)을 통해 Cloudflare R2에 빌드된 파일 업로드
+
+<br>
+
+## 버전 로그
+
+### v0.1.0
+
+- Cache-Control 설정
+- Cloudflare R2 배포 설정

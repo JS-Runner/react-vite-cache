@@ -47,12 +47,4 @@ SPA 리액트 프로젝트를 배포 및 `Cache-Control` 헤더를 이용하여 
 
 ## 버전 로그
 
-### v0.1.0
-
-- Cache-Control 설정
-- Cloudflare R2 배포 설정
-
-### v0.1.1
-
-- 커스텀 도메인 설정
-- Cache-Control action 추가
+[버전별 변경 사항](./docs/CHANGELOG.md)

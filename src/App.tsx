@@ -1,6 +1,7 @@
 import { Link, Outlet } from 'react-router';
 import './index.css';
 
+// v0.2.0 test comment
 function App() {
   return (
     <>
